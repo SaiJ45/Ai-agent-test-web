@@ -1,3 +1,5 @@
-function showMessage() {
-    alert("Button Clicked Successfully"
-}
+```javascript
+ function showMessage() {
+    alert("Button Clicked Successfully");
+ }
+```
