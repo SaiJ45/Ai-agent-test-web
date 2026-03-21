@@ -1,3 +1,3 @@
 function showMessage() {
-    alert("Button Clicked Successfully"
+    alert("Button Clicked Successfully");
 }
