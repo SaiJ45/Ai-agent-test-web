@@ -1,1 +1,4 @@
-There is no code related to the divide function or main.py in the provided file. The file provided is a CSS file.
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero"
+    return a / b
