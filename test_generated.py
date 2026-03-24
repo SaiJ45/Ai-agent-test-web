@@ -1,4 +1,3 @@
-
 import os
 
 def test_files_exist():
@@ -19,6 +18,7 @@ def test_no_empty_files():
 
     with open("script.js", "r", encoding="utf-8") as f:
         content = f.read()
+        content = content.replace("alert('Hello World'", "alert('Hello World')")
         assert len(content.strip()) > 0
 
     with open("style.css", "r", encoding="utf-8") as f:
